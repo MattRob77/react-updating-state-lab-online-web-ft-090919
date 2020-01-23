@@ -36,10 +36,15 @@ handleResolution = () => {
   })
 }
 
-render() {
-  return(
-    <div> 
-    <button className="bitrate" onClick={this.handleBitRate}
+ render() {
+    return (
+      <div>
+        <button className="bitrate" onClick={this.handleBitRate}>{this.state.settings.bitrate}</button>
+        <button className="resolution" onClick={this.handleResolution}>{this.state.settings.video.resolution}</button>
+      </div>
     )
+  }
 }
+
+export default 
 
