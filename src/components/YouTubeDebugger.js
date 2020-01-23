@@ -46,5 +46,5 @@ handleResolution = () => {
   }
 }
 
-export default 
+export default YouTubeDebugger
 
